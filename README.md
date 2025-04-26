@@ -5,8 +5,8 @@ It is powered by an **XGBoost ML model** and deployed through a **professional S
 
 
 You can **view the live application here**:  
-🔗 [View Deployed App](https://your-streamlit-link)  
-*(Click the link above to open the app.)*
+🔗 [View Deployed App](https://ml-ids-app.streamlit.app/)  
+
 
 ---
 
@@ -112,5 +112,5 @@ The **target variable** indicates whether the connection was an **attack** or **
 ---
 
 
-###Built with ❤️ by **Harshitha Sha** 🚀  
+Built with ❤️ by **Harshitha Sha** 🚀  
 
