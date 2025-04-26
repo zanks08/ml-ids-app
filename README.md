@@ -3,6 +3,11 @@
 This project is a **full Machine Learning Intrusion Detection System (IDS)** that predicts whether a network traffic connection is **normal** or an **attack** using the NSL-KDD dataset.  
 It is powered by an **XGBoost ML model** and deployed through a **professional Streamlit web app**.
 
+
+You can **view the live application here**:  
+🔗 [View Deployed App](https://your-streamlit-link)  
+*(Click the link above to open the app.)*
+
 ---
 
 ## 🧠 About This Web Application
@@ -34,7 +39,7 @@ Built to simulate **real-world Network Monitoring Tools** for security professio
 2. **Model Development**
    - Trained an XGBoost Classifier.
    - Performed Hyperparameter tuning (optimized tree depth, learning rate, gamma, regularizations).
-   - Achieved ~90% model accuracy on unseen test data.
+   - Achieved ~80% model accuracy on unseen test data.
 
 3. **Web Application Development**
    - Designed a front-end dashboard using **Streamlit**.
@@ -47,5 +52,65 @@ Built to simulate **real-world Network Monitoring Tools** for security professio
 
 ---
 
-## 📂 Project Structure
+## 🚀 How to Run Locally
+
+Follow these simple steps to set up and run the AI IDS app on your machine:
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/ml-ids-app.git
+cd ml-ids-app
+```
+
+2. Install all dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the streamlit web app:
+ ```bash
+streamlit run app.py
+```
+
+---
+
+## 📊 Dataset Information
+
+- **Dataset:** NSL-KDD (an improved version of KDD Cup 1999)
+- **Source:**  
+  [NSL-KDD Dataset Source](https://www.unb.ca/cic/datasets/nsl.html)
+
+**Features Include:**
+- Duration, protocol type, service, flag
+- Number of failed logins, compromised conditions
+- Various connection statistics (bytes sent, errors, rates)
+
+The **target variable** indicates whether the connection was an **attack** or **normal**.
+
+---
+
+## 📌 Technologies Used
+
+| Tool | Purpose |
+|------|---------|
+| Python | Programming Language |
+| XGBoost | Machine Learning Model |
+| Scikit-Learn | Preprocessing and Metrics |
+| Pandas | Data Handling |
+| Streamlit | Web App Deployment |
+| Seaborn/Matplotlib | Data Visualization |
+
+---
+
+## 🔗 References
+
+- [NSL-KDD Dataset Source](https://www.unb.ca/cic/datasets/nsl.html)
+- [XGBoost Documentation](https://xgboost.readthedocs.io/)
+- [Streamlit Documentation](https://docs.streamlit.io/)
+- [Original KDD Cup 1999 Dataset](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html)
+
+---
+
+
+###Built with ❤️ by **Harshitha Sha** 🚀  
 
